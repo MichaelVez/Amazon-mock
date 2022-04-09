@@ -1,0 +1,17 @@
+:root {
+  --navcoltop: #121921;
+  --navcolmid: #232f3f;
+  --navcolbot: #f7f9f8;
+  --mainlinkcolor: #007185;
+  --mainlinkhover: #c7511f;
+  --pricecolor: #b12704;
+  --maintextcolor: #565959;
+  --maingreencolor: #007600;
+  --btncolor1: #ffd814;
+  --btnbordercolor1: #fcd200;
+  --btncolor2: #ffa41c;
+  --btnbordercolor2: #ff8f00;
+  --btn2hover: #fa8900;
+  --btn1hover: #f7ca00;
+  --asideiteminfo: #565959;
+}

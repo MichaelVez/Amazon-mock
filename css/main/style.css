@@ -1,0 +1,287 @@
+main {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.cat ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 10%;
+  font-size: 12px;
+}
+.cat ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-img {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  width: 30%;
+  justify-content: flex-start;
+}
+.main-img-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.main-img-gallery button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  margin: 5px;
+}
+.main-img-gallery button:hover {
+  border-color: var(--btncolor1);
+  box-shadow: 3px 3px 30px 3px var(--btncolor1);
+}
+.main-img-gallery button:nth-child(1) {
+  background: url(/Assets/img/img1.jpg) center center/cover;
+}
+.main-img-gallery button:nth-child(2) {
+  background: url(/Assets/img/img2.jpg) center center/cover;
+}
+.main-img-gallery button:nth-child(3) {
+  background: url(/Assets/img/img3.jpg) center center/cover;
+}
+.main-img-gallery button:nth-child(4) {
+  background: url(/Assets/img/img4.jpg) center center/cover;
+}
+.main-img-gallery button:nth-child(5) {
+  background: url(/Assets/img/img5.jpg) center center/cover;
+}
+.main-img-gallery button:nth-child(6) {
+  background: url(/Assets/img/img6.jpg) center center/cover;
+}
+.main-img-gallery button:nth-child(7) {
+  background: url(/Assets/img/img7.jpg) center center/cover;
+}
+.main-main-img img {
+  width: 90%;
+  height: 100%;
+}
+.main-iteminfo {
+  width: 30%;
+}
+.main-iteminfo h1 {
+  font-size: 24px;
+}
+.main-iteminfo a {
+  color: var(--mainlinkcolor);
+  text-decoration: none;
+}
+.main-iteminfo .rating-star-sprite {
+  box-sizing: border-box;
+  display: inline-block;
+  background: url(/Assets/img/stars.png) no-repeat -390px -206px;
+  width: 95px;
+  height: 18px;
+}
+.main-iteminfo a:hover {
+  color: var(--mainlinkhover);
+  text-decoration: underline;
+}
+.price {
+  color: var(--pricecolor);
+  font-size: 18px;
+  font-weight: 600;
+}
+.pricespan {
+  font-weight: 400;
+  color: var(--maintextcolor);
+  font-size: 14px;
+}
+.main-iteminfo .importfees {
+  font-size: 14px;
+  color: var(--maintextcolor);
+}
+
+.main-iteminfo div ul {
+  padding: 20px;
+}
+/*  */
+/* ! aside */
+.main-aside {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--maintextcolor);
+  border-radius: 20px;
+  margin-left: 5%;
+  padding: 10px;
+}
+.main-aside a {
+  color: var(--mainlinkcolor);
+  text-decoration: none;
+}
+.main-aside a:hover {
+  color: var(--mainlinkhover);
+}
+#bold {
+  font-weight: 700;
+}
+#greencolor {
+  color: var(--maingreencolor);
+}
+.arrowdown {
+  display: inline-block;
+  background: url(/Assets/img/sprite_cola.png) no-repeat -184px -342px;
+  width: 13px;
+  height: 8px;
+}
+.sprite-smallloc {
+  background: url("https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png")
+    center center/cover;
+  display: inline-block;
+  width: 14px;
+  height: 17px;
+  background-color: white;
+}
+.main-instocktext {
+  font-size: 18px;
+}
+.main-aside div select {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.main-aside div button {
+  display: block;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+.main-aside div button:nth-child(1) {
+  background-color: var(--btncolor1);
+  border: 1px solid var(--btnbordercolor1);
+  display: block;
+}
+.main-aside div button:nth-child(1):hover {
+  background-color: var(--btnbordercolor1);
+}
+.main-aside div button:nth-child(2) {
+  background-color: var(--btncolor2);
+  border: 1px solid var(--btnbordercolor2);
+  display: block;
+}
+.main-aside div button:nth-child(2):hover {
+  background-color: var(--btnbordercolor2);
+}
+.securelock {
+  background: url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/checkout/truespc/secured-ssl._CB485936932_.png)
+    center center/cover;
+  display: inline-block;
+  width: 14px;
+  height: 19px;
+}
+.line {
+  border-top: 1px solid lightgray;
+  width: 100%;
+  height: 1px;
+  padding-bottom: 10px;
+}
+#btn3 {
+  background-color: #f3f3f3;
+  border: 1px solid gray;
+  border-radius: 3px;
+  text-align: left;
+}
+/*  */
+/* !padding */
+.main-aside div:nth-child(1) {
+  padding: 20px;
+  font-size: 22px;
+}
+.main-aside div:nth-child(2) {
+  padding-left: 10px;
+}
+.main-aside div:nth-child(3) {
+  padding-left: 10px;
+}
+.main-aside div:nth-child(4) {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.main-aside div:nth-child(5) {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.main-aside div:nth-child(6) {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.main-aside div:nth-child(7) {
+  padding-bottom: 10px;
+  padding: 7px;
+}
+.main-aside div:nth-child(8) {
+  padding-bottom: 10px;
+  padding: 7px;
+}
+.main-aside div:nth-child(11) {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+#colorasideiteminfo {
+  color: var(--asideiteminfo);
+  font-size: 12px;
+}
+.main-aside div:nth-child(12) {
+  padding-left: 10px;
+}
+.main-aside div:nth-child(13) {
+  padding-left: 10px;
+}
+.main-aside div:nth-child(15) {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.main-aside div:nth-child(16) {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.main-aside-cont {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.mail {
+  display: inline-block;
+  background: url(/Assets/img/social.png) no-repeat -256px -221px;
+  width: 19px;
+  height: 15px;
+}
+.facebook {
+  display: inline-block;
+  background: url(/Assets/img/social.png) no-repeat -237px -151px;
+  width: 17px;
+  height: 17px;
+}
+.twit {
+  display: inline-block;
+  background: url(/Assets/img/social.png) no-repeat -192px -106px;
+  width: 19px;
+  height: 16px;
+}
+.pint {
+  display: inline-block;
+  background: url(/Assets/img/social.png) no-repeat -138px -14px;
+  width: 17px;
+  height: 18px;
+}
+.main-aside-cont span {
+  padding: 10px;
+  text-align: center;
+}

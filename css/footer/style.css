@@ -1,0 +1,109 @@
+footer {
+  padding-left: 10%;
+}
+h3 {
+  color: var(--pricecolor);
+}
+.caruheadline {
+  display: flex;
+  justify-content: space-between;
+}
+.imgrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2% 0;
+}
+.imgrow img {
+  width: 130px;
+  height: 130px;
+}
+footer div:nth-child(5) {
+  margin: 1% 0;
+}
+#colorpricecolor {
+  color: var(--pricecolor);
+}
+.moredet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.moredet button {
+  width: 150px;
+  background-color: var(--btncolor1);
+  border: 1px solid var(--btnbordercolor1);
+  border-radius: 10px;
+}
+.mainlinkcolor {
+  color: var(--mainlinkcolor);
+  text-decoration: none;
+}
+.mainlinkcolor:hover {
+  color: var(--mainlinkhover);
+}
+.caru {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.leftbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.rightbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 180px;
+  height: 300px;
+}
+.card img {
+  width: 160px;
+  height: 160px;
+}
+.card .itemdes {
+  width: 160px;
+  height: 80px;
+  overflow: hidden;
+  font-size: 14px;
+}
+.card .rate {
+  width: 160px;
+  height: 20px;
+}
+.card .rate {
+  background: url(/Assets/img/stars.png) no-repeat -84px -28px;
+  width: 80px;
+  height: 15px;
+}
+.card .row {
+  display: flex;
+  flex-direction: row;
+}
+.card .primesprite {
+  background: url(/Assets/img/social.png) no-repeat -138px -73px;
+  width: 42px;
+  height: 12px;
+}
+.card :hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--mainlinkhover);
+}
