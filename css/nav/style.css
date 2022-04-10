@@ -136,6 +136,7 @@
 .nav-cart {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 .cartsprite {
   background: url(/Assets/img/sprite_cola.png) no-repeat -218px -337px;
@@ -144,6 +145,12 @@
 }
 .carttext {
   color: white;
+}
+.cart-num {
+  color: var(--cartnum);
+  position: absolute;
+  top: 0;
+  left: 25%;
 }
 
 /*  */
@@ -192,10 +199,14 @@
   text-decoration: none;
 }
 
-.mid li:hover {
+.mid li:hover,
+.top .nav:hover {
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 7px;
   cursor: pointer;
+}
+.top .nav-search:hover {
+  border: none;
 }
 
 /*  */

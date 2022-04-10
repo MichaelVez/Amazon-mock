@@ -27,6 +27,9 @@
   .mid ul {
     display: none;
   }
+  .cart-num {
+    display: none;
+  }
   .nav {
     width: 100%;
   }

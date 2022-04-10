@@ -9,6 +9,7 @@ main {
   list-style: none;
   padding-left: 10%;
   font-size: 12px;
+  clear: both;
 }
 .cat ul li:hover {
   text-decoration: underline;
